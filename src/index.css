@@ -12,17 +12,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   height: 100vh;
-  /* width: 250vh; */
+  width: 100vw;
   background-size: cover;
   background-image: url(./portfolioBg.jpg);
   overflow: auto;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 }
 
 .bgMini {
   background-size: cover;
   background-image: url(./portfolioBg.jpg);
   height: 50vh;
+  width: 50vw;
 }
 
 code {
@@ -33,6 +34,7 @@ code {
 .home {
   background-color: rgba(0, 0, 0, 0.85);
   height: 88vh;
+  width: 88vw;
   width: auto;
   text-align: center;
   margin-left: 8px;
@@ -49,6 +51,7 @@ code {
 .homeMini {
   background-color: rgba(0, 0, 0, 0.85);
   height: 44vh;
+  width: 44vw;
   width: auto;
   text-align: center;
   margin: 8px;
