@@ -14,6 +14,8 @@ body {
   height: 100vh;
   background-size: cover;
   background-image: url(./portfolioBg.jpg);
+  overflow: auto;
+  overflow-x: auto;
 }
 
 .bgMini {
