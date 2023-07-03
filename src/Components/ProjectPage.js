@@ -78,7 +78,8 @@ export const ProjectPage = ({project}) =>{
                  <Gallery project={project}/>
                  <center>
                     <br></br>
-                    <h3 style={{color: 'lightYellow'}}>This SPA was built using ReactJS, React-Bootstrap, and CSS animations. </h3>
+                    <h5>This SPA was built using ReactJS, React-Bootstrap, and CSS animations.</h5>
+                    <h6 style={{color: 'lightYellow'}}>Deployed through GitHub Pages.</h6>
                     <h4>
                         Code: &nbsp; 
                         <a target="_blank" href={project.github} 
