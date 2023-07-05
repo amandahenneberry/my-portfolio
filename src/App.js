@@ -38,12 +38,20 @@ function App() {
           {/* SMARTPHONE */}
 
       {windowWidth < 500 ? (
+        <div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <div className='phoneBg'>
+          <center>
           <div className="phone">
           </div>
+          </center>
           <div className="message">
              Please rotate your device!
           </div>
+        </div>
         </div>
       ) : (<MobileHome />)}
 
