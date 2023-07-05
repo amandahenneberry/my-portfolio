@@ -66,6 +66,7 @@ function ContextAwareToggle({ children, eventKey, callback}) {
             <Accordion.Collapse eventKey="0">
               <Card.Body className ='mobileHome' id='homeBody'>
                 <Container>
+                    <br></br>
                   
                   <h1 className="textHomeWelcome">
                     {/* <span className='hello' id='h'>H</span> */}
@@ -87,6 +88,7 @@ function ContextAwareToggle({ children, eventKey, callback}) {
                   
                 <h2 id="webDev">Web Dev <br></br></h2>
                 <h1 className="textHomePortfolio" id='portfolio'> <span style={{color: 'transparent', fontSize: '4vh'}} id='lineB'>&#124;</span> Portfolio  <span style={{color: 'transparent', fontSize: '4vh'}} id='lineB'>&#124;</span></h1>
+                <br></br>
                 </Container>
               
               </Card.Body>
