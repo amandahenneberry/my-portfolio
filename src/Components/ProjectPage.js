@@ -59,6 +59,7 @@ export const ProjectPage = ({project}) =>{
                  
                 </Col>
             </Row>
+            <br></br>
             <Row>
                 <Col>
                     <Features project={project}/>
