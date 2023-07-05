@@ -39,9 +39,9 @@ function App() {
 
       {windowWidth < 500 ? (
         <div>
-          <div class="phone">
+          <div className="phone">
           </div>
-          <div class="message">
+          <div className="message">
              Please rotate your device!
           </div>
         </div>
