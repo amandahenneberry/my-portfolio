@@ -1,11 +1,12 @@
 .mobileHome {
   background-color: rgba(0, 0, 0, 0.85);
-  height: 100vh;
+  height: 80vh;
   /* width: 100vw; */
   width: auto;
   text-align: center;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
