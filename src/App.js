@@ -1,5 +1,6 @@
 import './index';
 import Home from './Components/Home';
+import MobileHome from './Components/MobileHome';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 
@@ -13,27 +14,24 @@ import MediaQuery from 'react-responsive'
 function App() {
   return (
     <div>
-      
-     
-
       <MediaQuery minWidth={992}>
         {/* LAPTOP */}
         <Home />
       </MediaQuery>
-      <MediaQuery minWidth={768} maxWidth={991}>
+      {/* <MediaQuery minWidth={768} maxWidth={991}>
         <h1>TABLET OR LANDSCAPE SMARTPHONE</h1>
-      </MediaQuery>
+      </MediaQuery> */}
       <MediaQuery maxWidth={767}>
-        <h1>SMARTPHONE - test 4</h1>
+        <MobileHome />
       </MediaQuery>
-      <MediaQuery minResolution="2dppx">
+      {/* <MediaQuery minResolution="2dppx">
         {(matches) =>
         matches
         ? <p>And you are high DPI</p>
         : <p>And you are low DPI</p>
         }
 
-      </MediaQuery>
+      </MediaQuery> */}
     </div>
   );
 }
