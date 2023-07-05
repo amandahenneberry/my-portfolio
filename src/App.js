@@ -13,6 +13,9 @@ import MediaQuery from 'react-responsive'
 function App() {
   return (
     <div>
+      
+      <Home />
+
       <MediaQuery minWidth={992}>
         <h1>LAPTOP.</h1>
       </MediaQuery>
@@ -30,7 +33,6 @@ function App() {
         }
 
       </MediaQuery>
-      <Home />
     </div>
   );
 }
