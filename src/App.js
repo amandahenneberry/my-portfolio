@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       
-      <Home />
+      {/* <Home /> */}
 
       <MediaQuery minWidth={992}>
         <h1>LAPTOP.</h1>
