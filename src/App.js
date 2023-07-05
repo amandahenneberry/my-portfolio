@@ -38,7 +38,7 @@ function App() {
           {/* SMARTPHONE */}
 
       {windowWidth < 500 ? (
-        <div>
+        <div className='phoneBg'>
           <div className="phone">
           </div>
           <div className="message">
