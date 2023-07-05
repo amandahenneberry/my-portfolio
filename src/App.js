@@ -14,16 +14,17 @@ function App() {
   return (
     <div>
       
-      {/* <Home /> */}
+     
 
       <MediaQuery minWidth={992}>
-        <h1>LAPTOP.</h1>
+        {/* LAPTOP */}
+        <Home />
       </MediaQuery>
       <MediaQuery minWidth={768} maxWidth={991}>
         <h1>TABLET OR LANDSCAPE SMARTPHONE</h1>
       </MediaQuery>
       <MediaQuery maxWidth={767}>
-        <h1>SMARTPHONE</h1>
+        <h1>SMARTPHONE - test 4</h1>
       </MediaQuery>
       <MediaQuery minResolution="2dppx">
         {(matches) =>
