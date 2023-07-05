@@ -36,9 +36,15 @@ function App() {
       </MediaQuery> */}
       <MediaQuery maxWidth={767}>
           {/* SMARTPHONE */}
-          
+
       {windowWidth < 500 ? (
-        <div> Please turn your device to landscape..</div>
+        <div>
+          <div class="phone">
+          </div>
+          <div class="message">
+             Please rotate your device!
+          </div>
+        </div>
       ) : (<MobileHome />)}
 
       
