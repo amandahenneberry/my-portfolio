@@ -69,7 +69,7 @@ export const ProjectPage = ({project}) =>{
                 
                 <br></br>
                 <center>
-                <h4 style={{paddingRight: '100px'}}> 
+                <h4> 
                     Check it out: &nbsp;
                 <a target="_blank" href={project.site}
                  onMouseEnter={()=>{
@@ -106,7 +106,7 @@ export const ProjectPage = ({project}) =>{
                  <Gallery project={project}/>
                  <center>
                     <br></br>
-                    <h5>This SPA was built using ReactJS, React-Bootstrap, and CSS animations.</h5>
+                    <h5>This SPA was built using ReactJS, React-Bootstrap, and CSS animations. <br></br>Screen size and device responsiveness added using the React-Responsive library.</h5>
                     <h6 style={{color: 'lightYellow'}}>Deployed through GitHub Pages.</h6>
                     <h4>
                         Code: &nbsp; 
