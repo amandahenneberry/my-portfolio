@@ -7,7 +7,7 @@ function PortfolioAnimation() {
             <Card bsstyle='default' className='bgMini' style={{outline: 'none', backgroundColor: 'transparent', height:'100%', width:'60%', padding: '0px 10x 0px 10px'}}>
             <Card.Body className ='homeMini' id='homeBody'>
                 <Container >
-                  
+                  <br></br>
                   <h1 className="textHomeWelcomeMini">
                     <span id='w'>W</span>
                     <span id='e'>e</span>
@@ -34,6 +34,7 @@ function PortfolioAnimation() {
                     <span style={{color: 'transparent', fontSize: '2.5vh'}} id='lineB'>&#124;
                     </span>
                     </h1>
+                  <br></br>
                 </Container>
               </Card.Body>
             </Card>

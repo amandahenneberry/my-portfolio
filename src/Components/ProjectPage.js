@@ -7,6 +7,9 @@ import  Container  from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 
+import { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive'
+
 export const ProjectPage = ({project}) =>{
     const [hoverLink, onHoverLink] = useState(false)
     const [hoverGit, onHoverGit] = useState(false)
@@ -25,8 +28,10 @@ export const ProjectPage = ({project}) =>{
             <h5>{project.blurb2}</h5>
             </center>
             <br></br>
-                <Row>
-                    <Col>
+            <MediaQuery minWidth={992}>
+                {/* LAPTOP */}
+            <Row>
+                <Col>
                     <Gallery project={project}/>
                     <div style={{color: 'lightYellow'}}>
                         <center>
@@ -34,11 +39,33 @@ export const ProjectPage = ({project}) =>{
                         </center>
                     </div>
                  
-                    </Col>
-                    <Col>
+                </Col>
+                <Col>
                     <Features project={project}/>
-                    </Col>
+                </Col>
                 </Row>
+            </MediaQuery>
+
+            <MediaQuery maxWidth={767}>
+                {/* SMARTPHONE */}
+            <Row>
+                <Col>
+                    <Gallery project={project}/>
+                    <div style={{color: 'lightYellow'}}>
+                        <center>
+                        <small>{project.info}</small>
+                        </center>
+                    </div>
+                 
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <Features project={project}/>
+                </Col>
+                </Row>
+            </MediaQuery>
+                
                 <br></br>
                 <center>
                 <h4 style={{paddingRight: '100px'}}> 

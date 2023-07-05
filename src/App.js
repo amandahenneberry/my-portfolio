@@ -43,6 +43,10 @@ function App() {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <div className='phoneBg'>
           <center>
           <div className="phone">
