@@ -4,8 +4,8 @@
   /* width: 100vw; */
   width: auto;
   text-align: center;
-  /* margin-left: 2px;
-  margin-right: 0px; */
+  margin-left: 4px;
+  margin-right: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,3 +27,15 @@
   background-repeat: repeat;
 
 }
+
+/* #webDevMobile {
+    animation-name: webDevColor;
+    animation-delay: 1.5s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes webDevColorMobile {  
+    50%{font-size: 35vh}
+    100%{font-size: 25vh}
+  } */

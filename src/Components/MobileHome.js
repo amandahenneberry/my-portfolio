@@ -62,7 +62,7 @@ function ContextAwareToggle({ children, eventKey, callback}) {
       <>
       
           <Accordion flush defaultActiveKey="0">
-          <Card bsstyle='default' style={{outline: 'none', backgroundColor: 'transparent', height:'100%', padding: '0px 10x 0px 10px'}}>
+          <Card bsstyle='default' style={{outline: 'none', backgroundColor: 'transparent', height:'100%', padding: '0px 5x 0px 5px'}}>
             <Accordion.Collapse eventKey="0">
               <Card.Body className ='mobileHome' id='homeBody'>
                 <Container>
@@ -86,7 +86,7 @@ function ContextAwareToggle({ children, eventKey, callback}) {
                   </h1>
                   
                 <h2 id="webDev">Web Dev <br></br></h2>
-                <h1 className="textHomePortfolio" id='portfolio'> <span style={{color: 'transparent', fontSize: '5vh'}} id='lineB'>&#124;</span> Portfolio  <span style={{color: 'transparent', fontSize: '5vh'}} id='lineB'>&#124;</span></h1>
+                <h1 className="textHomePortfolio" id='portfolio'> <span style={{color: 'transparent', fontSize: '4vh'}} id='lineB'>&#124;</span> Portfolio  <span style={{color: 'transparent', fontSize: '4vh'}} id='lineB'>&#124;</span></h1>
                 </Container>
               
               </Card.Body>
