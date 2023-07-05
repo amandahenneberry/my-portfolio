@@ -22,6 +22,7 @@ function App() {
         <h1>TABLET OR LANDSCAPE SMARTPHONE</h1>
       </MediaQuery> */}
       <MediaQuery maxWidth={767}>
+        {/* SMARTPHONE */}
         <MobileHome />
       </MediaQuery>
       {/* <MediaQuery minResolution="2dppx">

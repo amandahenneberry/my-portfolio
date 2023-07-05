@@ -64,7 +64,7 @@ function ContextAwareToggle({ children, eventKey, callback}) {
           <Accordion flush defaultActiveKey="0">
           <Card bsstyle='default' style={{outline: 'none', backgroundColor: 'transparent', height:'100%', padding: '0px 10x 0px 10px'}}>
             <Accordion.Collapse eventKey="0">
-              <Card.Body className ='home' id='homeBody'>
+              <Card.Body className ='mobileHome' id='homeBody'>
                 <Container>
                   
                   <h1 className="textHomeWelcome">
