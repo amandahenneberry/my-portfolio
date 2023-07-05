@@ -71,7 +71,7 @@ function PortfolioAnimation() {
                     </span>
                   </h1>
                   
-                <h2 id="webDevMini">Web Dev <br></br></h2>
+                <h2 id="webDevMini">Web Dev</h2>
                 <h1 className="textHomePortfolioMini" id='portfolio'> 
                     <span style={{color: 'transparent', fontSize: '2.5vh'}} 
                         id='lineB'>&#124;

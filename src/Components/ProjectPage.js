@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Github, BoxArrowUpRight, Prescription } from 'react-bootstrap-icons'
+import { Github, BoxArrowUpRight}  from 'react-bootstrap-icons'
 // import { Prev } from 'react-bootstrap/esm/PageItem'
 import { Gallery } from './Gallery';
 import { Features } from  './Features';
