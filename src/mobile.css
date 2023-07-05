@@ -6,7 +6,7 @@
   text-align: center;
   margin-left: 8px;
   margin-right: 8px;
-  padding: 10px 30px 10px 30px;
+  padding: 30px 10px 30px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,7 @@
   flex: 0 1 auto;
   background-size: contain;
   background-repeat: repeat;
+  white-space: nowrap;
 
 }
 
