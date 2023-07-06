@@ -31,16 +31,36 @@ function App() {
         {/* LAPTOP */}
         <Home />
       </MediaQuery>
-      {/* <MediaQuery minWidth={768} maxWidth={991}>
-        <h1>TABLET OR LANDSCAPE SMARTPHONE</h1>
-      </MediaQuery> */}
+      <MediaQuery minWidth={768} maxWidth={991}>
+        {/* smartphone  or tablet?? */}
+
+        {windowWidth < 500 ? (
+        <div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div className='phoneBg'>
+          <center>
+          <div className="phone">
+          </div>
+          </center>
+          <div className="message">
+             Please rotate your device!
+          </div>
+        </div>
+        </div>
+      ) : (<MobileHome />)}
+
+       
+      </MediaQuery>
       <MediaQuery maxWidth={767}>
           {/* SMARTPHONE */}
 
       {windowWidth < 500 ? (
         <div>
-        <br></br>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>
@@ -62,14 +82,6 @@ function App() {
       
         
       </MediaQuery>
-      {/* <MediaQuery minResolution="2dppx">
-        {(matches) =>
-        matches
-        ? <p>And you are high DPI</p>
-        : <p>And you are low DPI</p>
-        }
-
-      </MediaQuery> */}
     </div>
   );
 }
