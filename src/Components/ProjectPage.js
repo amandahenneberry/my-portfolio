@@ -46,6 +46,31 @@ export const ProjectPage = ({project}) =>{
                 </Row>
             </MediaQuery>
 
+            <MediaQuery minWidth={768} maxWidth={991}>
+                {/* SMARTPHONE or TABLET */}
+            <Row>
+                <Col>
+                    <Gallery project={project}/>
+                    <div style={{color: 'lightYellow'}}>
+                        <center>
+                        <small>{project.info}</small>
+                        </center>
+                    </div>
+                 
+                </Col>
+            </Row>
+            <br></br>
+            <Row>
+                <Col>
+                    <Features project={project}/>
+                </Col>
+                </Row>
+  
+
+            </MediaQuery>
+
+
+
             <MediaQuery maxWidth={767}>
                 {/* SMARTPHONE */}
             <Row>
@@ -69,6 +94,7 @@ export const ProjectPage = ({project}) =>{
                 
                 <br></br>
                 <center>
+                    <p style={{color:'yellow'}}>Note: This web app was developed for use on laptops and desktops. Some features may not be available on smartphones or tablets (yet!)</p>
                 <h4> 
                     Check it out: &nbsp;
                 <a target="_blank" href={project.site}
