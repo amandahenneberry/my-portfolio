@@ -24,7 +24,7 @@ export const AboutMe = () =>{
                 &emsp; &emsp;From 2019-2020, I instructed a high school computer science course in Harlem, NYC. Upon research of professional tech education alternatives with my students, I began considering an alternative program for myself!
                 <br/><br/> 
                 &emsp; &emsp;In 2021, I was accepted into the Grace Hopper Program at Fullstack Academy; I graduated in 2022 with a certificate in full-stack web development.  Since earning my certificate, I’ve continued practicing and educating myself through books, web docs, hands-on practice, and various courses on Code Academy.
-                <br></br><br></br>As a Web Developer, I strive to create intuitive, user-focused experiences that bring ease (and potential excitement!) to digital tasks through continuos research and optimization of my codes. 
+                <br></br><br></br>As a Web Developer, I strive to create intuitive, user-focused experiences that bring ease (and potential excitement!) to digital tasks through continuous research and optimization of my codes. 
               
                   <br/><br/>My technical skills include <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b>,  <b>React</b>, <b>Redux</b>, <b>Axios</b>, <b>Express</b>, <b>Sequelize</b>, <b>Node</b>, and more! 
 
